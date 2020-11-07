@@ -1,0 +1,240 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<!--/ Intro Skew Star /
+  <div id="home" class="intro route bg-image" style="background-image: url({% static 'images/slider-2.jpg' %})">
+    <div class="overlay-itro"></div>
+    <div class="intro-content display-table">
+      <div class="table-cell">
+        <div class="container">
+          <!--<p class="display-6 color-d">Hello, world!</p>-->
+           <!--<h1 class="intro-title mb-4">I  Morgan Freeman</h1>
+          <p class="intro-subtitle"><span class="text-slider-items">CEO DevFolio,Web Developer,Web Designer,Frontend Developer,Graphic Designer</span><strong class="text-slider"></strong></p>
+          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+       <!-- </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Intro Skew End /-->
+  <div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="1"></li>
+			<li data-target="#carouselExampleControls" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner" role="listbox">
+			<div class="carousel-item active">
+				<div id="home" class="intro route bg-image" style="background-image:url('{% static 'images/slider-2.jpg' %}');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-right">
+									<div class="big-tagline">
+										<h2><strong>Colegio </strong>Ciencias Comerciales Sanarate</h2>
+										<p class="lead">Comprometidos con la excelencia educativa. </p>
+									</div>
+								</div>
+							</div><!-- end row -->
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<div class="carousel-item">
+				<div id="home" class="intro route bg-image" style="background-image:url('{% static 'images/slider-01.jpg' %}');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-left">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight">Se parte de nuestra<strong>Familia CCS</strong></h2>
+									</div>
+								</div>
+							</div><!-- end row -->
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<div class="carousel-item">
+				<div id="home" class="intro route bg-image" style="background-image:url('{% static 'images/edificoc.jpg' %}');">
+					<div class="dtab">
+						<div class="container">
+							<div class="row">
+								<div class="col-md-12 col-sm-12 text-center">
+									<div class="big-tagline">
+										<h2 data-animation="animated zoomInRight"><strong>Familia</strong> CCS</h2>
+										<p class="lead" data-animation="animated fadeInLeft">Somos una institución educativa que forma 
+                                        profesionales capaces de enfrentar con éxito los desafíos laborales</p>
+									</div>
+								</div>
+							</div><!-- end row -->
+						</div><!-- end container -->
+					</div>
+				</div><!-- end section -->
+			</div>
+			<!-- Left Control -->
+			<a class="new-effect carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+				<span class="fa fa-angle-left" aria-hidden="true"></span>
+				<span class="sr-only">Previous</span>
+			</a>
+
+			<!-- Right Control -->
+			<a class="new-effect carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+				<span class="fa fa-angle-right" aria-hidden="true"></span>
+				<span class="sr-only">Next</span>
+			</a>
+		</div>
+	</div>
+
+    <section class="ftco-section">
+    	<div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h3 class="mb-4 wow fadeInLeft" data-wow-duration="1s">Filosofía de nuestra institución educativa</h3>
+          </div>
+        </div>
+    		<div class="row">
+          <div class="col-md-4 d-flex align-self-stretch ftco-animate wow fadeInUp" data-wow-duration="1s">
+            <div class="media block-6 services p-3 py-4 d-block text-center">
+              <div class="icon d-flex justify-content-center align-items-center mb-3"><span><img src="{% static 'images/objective.png' %}" style="width:65px;"></span></div>
+              <div class="media-body px-3">
+                <h3 class="heading  " >Visión</h3>
+                <p>"Ser una institucion educativa lider a nivel regional y un agente de cambio en la sociedad a traves
+                de la formacion de cuidadanos integros y capaces."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-self-stretch ftco-animate wow fadeInUp" data-wow-duration="1s">
+            <div class="media block-6 services p-3 py-4 d-block text-center">
+              <div class="icon d-flex justify-content-center align-items-center mb-3"><span><img src="{% static 'images/teacher.png' %}" style="width:65px;"></span></div>
+              <div class="media-body px-3">
+                <h3 class="heading">Misión</h3>
+                <p>"Somos una entidad educativa con un legado de valores eticos, de excelencia academica y de compromiso
+                con la sociedad."</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex align-self-stretch ftco-animate wow fadeInUp" data-wow-duration="1s">
+            <div class="media block-6 services p-3 py-4 d-block text-center">
+              <div class="icon d-flex justify-content-center align-items-center mb-3"><span><img src="{% static 'images/book.png' %}" style="width:65px;"></span></div>
+              <div class="media-body px-3">
+                <h3 class="heading">Objetivos</h3>
+                <p>Brindar una formacion academica eficiente y eficaz, aplicando la mejora continua en los metodos pedagogicos
+                los recursos educativos y la formacion del personal docente y administrativo.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    	</div>
+    </section>
+
+     <section class="ftco-freeTrial">
+    	<div class="container">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="d-flex align-items-center">
+			    		<div class="free-trial ftco-animate  wow fadeInLeft" data-wow-duration="1s">
+			    			<h3>Nuestros Diferenciadores</h3>
+			    			<p>En nuestros 40 años de historia hemos transformado generaciones, nuestro compromiso es mantener el legado que 
+                            recibimos, de valores éticos, excelencia académica y proyección a la comunidad. Buscamos siempre la mejora continua en nuestros procesos 
+                            con el apoyo de un equipo de trabajo competente y con pasión por la docencia.</p>
+			    		</div>
+			    	</div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+     <section class="ftco-section contact-section ftco-degree-bg wow fadeInUp" data-wow-duration="1s">
+      <div class="container">
+    		<div class="row d-flex">
+          <div class="col-md-6 pl-md-5 ftco-animate ">
+            <h2 class="mb-4">Programa de cultura Fiscal y Diseño</h2>
+            <p>Ofrecemos a estudiantes de Perito Contador y Bachillerato en Finanzas el Programa de Cultura Fiscal, diseñado e 
+            impartido por funcionarios del Ministerio de Finanzas, que tiene como objetivo fomentar una ciudadanía participativa, consciente 
+            de sus derechos y obligaciones, que faciliten la transparente y 
+            adecuada utilización de los recursos del Estado, para mejorar la calidad de vida de los ciudadanos</p>
+          </div>
+    			<div class="col-md-6 d-flex ftco-animate">
+    				<div class="img img-about align-self-stretch">
+                <img src="{% static 'images/perito.jpg' %}" style= 'width: 100%; height: 300px;'>
+            </div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+     <section class="ftco-section contact-section ftco-degree-bg wow fadeInUp" data-wow-duration="1s">
+      <div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 d-flex ftco-animate ">
+    				<div class="img img-about align-self-stretch">
+              <img src="{% static 'images/acreditacion.jpg' %} " style= 'width: 100%; height: 300px;'>
+            </div>
+    			</div>
+    			<div class="col-md-6 pl-md-5 ftco-animate">
+    				<h2 class="mb-4">Acreditación y Certificación del Sistema de Garantía interna de la Calidad del Ministerio de Educación</h2>
+    				<p>Estamos en el proceso de Acreditación y Certificación del Sistema de Garantía Interna de la calidad del Ministerio de Educación, 
+                    que tiene como 
+                    objetivo garantizar la mejora continua de los procesos en búsqueda de la calidad educativa.</p>
+          </div>
+    		</div>
+    	</div>
+    </section>
+
+     <section class="ftco-section contact-section ftco-degree-bg wow fadeInUp" data-wow-duration="1s">
+      <div class="container">
+    		<div class="row d-flex">
+          <div class="col-md-6 pl-md-5 ftco-animate ">
+            <h2 class="mb-4">Capacitaciones Diversas impartidas por Intecap</h2>
+            <p>Capacitaciones diversas impartidas por INTECAP con el fin formar y certificar a los estudiantes para que luego 
+            se incorporaren al mercado laboral</p>
+          
+          </div>
+    			<div class="col-md-6 d-flex ftco-animate">
+    				<div class="img img-about align-self-stretch">
+                <img src="{% static 'images/intecap.jpg' %}" style= 'width: 100%; height: 300px;'>
+            </div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+
+    <section class="ftco-section contact-section ftco-degree-bg  wow fadeInUp" data-wow-duration="1s">
+      <div class="container">
+    		<div class="row d-flex">
+    			<div class="col-md-6 d-flex ftco-animate">
+    				<div class="img img-about align-self-stretch">
+              <img src="{% static 'images/nivel.jpg' %} " style= 'width: 100%; height: 300px;'>
+            </div>
+    			</div>
+    			<div class="col-md-6 pl-md-5 ftco-animate">
+    				<h2 class="mb-4">Clases de nivelación para estudiantes segun evalucación diagnostica</h2>
+    				<p>Clases de Nivelación para estudiantes según evaluación diagnóstica, detectamos la necesidad de los estudiantes en distintas áreas y se da la 
+                    oportunidad de nivelar aquellas que lo necesiten.</p> 
+          </div>
+    		</div>
+    	</div>
+    </section>
+
+     <section class="ftco-section contact-section ftco-degree-bg wow fadeInUp" data-wow-duration="1s">
+      <div class="container">
+    		<div class="row d-flex">
+          <div class="col-md-6 pl-md-5 ftco-animate ">
+            <h2 class="mb-4">Ganadores Departamentales de las Olimpiadas de las Ciencias</h2>
+            <p>Por once años consecutivos hemos sido ganadores departamentales de la Olimpiada de las Ciencias, evento educativo que es organizado por 
+            la Universidad de San Carlos, con la colaboración del Ministerio de Educación, que convoca a estudiantes destacados en las áreas de Matemática, Ciencias Naturales, 
+            Física, Biología y Química de toda la república para seleccionar por medio de evaluaciones a alumnos ganadores a nivel departamental, luego ganadores a nivel regional 
+            para luego seleccionar a los ganadores nacionales en cada una de las distintas áreas. A la fecha hemos tenido 314 
+            alumnos ganadores a nivel departamental, 28 alumnos ganadores a nivel regional y 8 ganadores a nivel nacional.</p>
+          </div>
+    			<div class="col-md-6 d-flex ftco-animate">
+    				<div class="img img-about align-self-stretch">
+                <img src="{% static 'images/olimpiadas.jpg' %}" style= 'width: 100%; height: 300px;'>
+            </div>
+    			</div>
+    		</div>
+    	</div>
+    </section>
+{% endblock content %}  

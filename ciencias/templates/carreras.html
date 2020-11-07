@@ -1,0 +1,196 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <!--/ Section Portfolio Star /-->
+  <section id="work" class="portfolio-mf sect-pt4 route">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="title-box text-center">
+            <h3 class="title-a">
+              Servicios Educativos
+            </h3>
+            <p class="subtitle-a">
+              El Colegio Ciencias Comerciales Sanarate brinda la oportunidad de una educación comprometida a mejorar el nivel académico y formativo de los estudiantes
+            </p>
+            <div class="line-mf"></div>
+          </div>
+        </div>
+      </div>
+      <div class="carreras row">
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-1.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{% static 'images/basica.png' %}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Educacion Basica</h2>
+                    <div class="w-more">
+                        <span class="w-date">Educacion Basica para capacitar estudiantes con el conocimiento necesario</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-2.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{% static 'images/bcl.jpg' %}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Bachillerato en Ciencias y Letras
+                    </h2>
+                    <div class="w-more">
+                      <span class="w-date">con cursos especalizados en Diseño Grafico respaldados por Intecap</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-3.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{% static 'images/comp.jpg' %}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Perito Contador con Orientacion en computacion</h2>
+                    <div class="w-more">
+                       <span class="w-date"></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-4.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{% static 'images/conta1.jpg' %}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Bachillerato en Ciencias y Letras</h2>
+                    <div class="w-more">
+                       <span class="w-date">con oreintacion en computacion</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-5.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{% static 'images/edu.png' %}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Bachillerato en Ciencias y Letras</h2>
+                    <div class="w-more">
+                       <span class="w-date">con orientacion en educacion</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="work-box">
+            <a href="img/work-6.jpg" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{% static 'images/fina.png' %}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">Bachillerato en Ciencias y Letras</h2>
+                    <div class="w-more">
+                       <span class="w-date">con orientacion en Finanzas y Administracion</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        {% for carrera in carreras %}
+         <div class="col-md-4">
+          <div class="work-box">
+            <a href="{% url 'cole:detail' carrera.id %}" data-lightbox="gallery-mf">
+              <div class="work-img">
+                <img src="{{ carrera.image.url }}" alt="" class="img-fluid">
+              </div>
+              <div class="work-content">
+                <div class="row">
+                  <div class="col-sm-8">
+                    <h2 class="w-title">{{ carrera.titulo_carrera }}</h2>
+                    <div class="w-more">
+                       <span class="w-date">{{ carrera.descripcion }}</span>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <div class="w-like">
+                      <span class="ion-ios-plus-outline"></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  <!--/ Section Portfolio End /-->
+{% endblock content %}
